@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabelas</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        caption {
+            font-size: 1.5em;
+            font-weight: bold;
+            padding: 10px;
+            background-color: rgba(169, 169, 169, 0.658);
+        }
+        tbody > tr:nth-child(2n) {
+            background-color: rgba(153, 153, 151, 0.473);
+        }
+        table {
+            width: 500px;
+            border-collapse: collapse;
+            position: relative;
+            
+        }
+        td, th {
+            border: 1px solid black;
+            padding: 10px;
+        }
+        thead, tfoot {
+            background-color: gray;
+            color: white;
+        }
+        thead > tr > th {
+            position: sticky;
+            top: -1px;
+            background-color: darkgray;
+        }
+        .num {
+            text-align: right;
+        }
+        p {
+            width: 500px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Uso de tabelas grandes</h1>
+    
+    <table>
+        <caption>População em Estados</caption>
+        <thead>
+            <tr>
+                <th scope="col">Estado</th>
+                <th scope="col" style="width: 50px;">População</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>São paulo</td>
+                <td class="num">44.411.238</td>
+            </tr>
+            <tr>
+                <td>Minas Gerais</td>
+                <td class="num">20.538.718</td>
+            </tr>
+            <tr>
+                <td>Rio de janeiro</td>
+                <td class="num">16.054.524</td>
+            </tr>
+            <tr>
+                <td>Bahia</td>
+                <td class="num">14.141.626</td>
+            </tr>
+            <tr>
+                <td>Paraná</td>
+                <td class="num">11.444.380</td>
+            </tr>
+            <tr>
+                <td>Rio Grande do Sul</td>
+                <td class="num">10.882.965</td>
+            </tr>
+            <tr>
+                <td>Pernambuco</td>
+                <td class="num">9.058.931</td>
+            </tr>
+            <tr>
+                <td>Ceará</td>
+                <td class="num">8.794.957</td>
+            </tr>
+            <tr>
+                <td>Pará</td>
+                <td class="num">8.121.025</td>
+            </tr>
+            <tr>
+                <td>Santa Catarina</td>
+                <td class="num">7.610.361</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <th scope="row">Total de Habitantes</th>
+                <td class="num"><strong>000000000</strong></td>
+            </tr>
+        </tfoot>
+        </body>
+        
+    </table>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repudiandae magnam odit rem nihil aperiam dicta quo incidunt eveniet non ab ad earum rerum molestiae, ipsum error illo voluptates eius libero. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Temporibus sequi deserunt excepturi atque ipsam, laborum eius, cum inventore odio sint consectetur ducimus eaque aut necessitatibus. Recusandae blanditiis earum odio ut? Lorem ipsum dolor sit, amet consectetur adipisicing elit. Officiis natus perferendis veniam voluptate iste ratione, asperiores quaerat iusto libero aliquam optio dolore quasi sint quia nam accusamus quis laboriosam sequi. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Perspiciatis, deserunt. Delectus consectetur repudiandae iste non debitis voluptate corporis, harum laboriosam asperiores! Reiciendis ad quia beatae nisi sequi magni cupiditate quos. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fuga, facere molestias omnis voluptatibus numquam et quis impedit odio exercitationem expedita reiciendis excepturi? Laboriosam numquam facilis, molestiae vel ducimus provident libero? Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta totam molestiae perferendis quia laborum nostrum tempore, saepe tempora earum iure harum asperiores vero temporibus id! Nam recusandae eaque nobis accusamus? Lorem, ipsum dolor sit amet consectetur adipisicing elit. In quae voluptate quam laudantium. Aliquid eos perspiciatis error molestiae facere deserunt voluptatibus, dolorum nemo accusantium iure, cupiditate in voluptate ipsa? Officia. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eaque ducimus laboriosam repellat rerum nihil ut laborum velit nemo quisquam sunt aspernatur ratione, a molestiae rem assumenda quibusdam inventore commodi itaque! Lorem ipsum, dolor sit amet consectetur adipisicing elit. Necessitatibus, odio nemo. Omnis exercitationem harum at porro nulla, tempora dolore, provident voluptas dolores quis reprehenderit repellendus. Alias animi eius accusantium expedita? Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo eveniet commodi corrupti dolores voluptatum officia sapiente distinctio, natus similique est laboriosam pariatur harum necessitatibus, fugit illo reprehenderit enim, possimus expedita. Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur nisi atque tempore. Quaerat aspernatur, assumenda quam labore vitae dignissimos corporis voluptas, sint a atque optio itaque obcaecati nobis nostrum qui. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sapiente nemo rem ut quas corrupti, inventore, fugit, sequi accusantium necessitatibus natus suscipit veritatis sint voluptates mollitia nisi minus blanditiis ipsam iste. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tenetur nesciunt tempora, provident eveniet excepturi incidunt odit odio sapiente illum vitae blanditiis possimus libero repudiandae non deleniti modi, neque ducimus maxime! Lorem ipsum, dolor sit amet consectetur adipisicing elit. Corrupti sequi maiores amet autem. Illo nesciunt nemo reiciendis. Magni sed vitae earum, provident rem, quos eveniet, in magnam sunt incidunt quis?</p>
+</html>
